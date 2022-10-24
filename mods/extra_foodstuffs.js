@@ -4,16 +4,16 @@ elements.cream = {
     color: "#f5f2e1",
     behavior: behaviors.LIQUID,
     category: "food",
-    viscosity: 50,
+    viscosity: 10,
     state: "liquid",
-    density: 1000,
+    density: 0,
 };
 
 elements.apple = {
     color: "#ed2d40",
     behavior: behaviors.POWDER,
     category: "food",
-    viscosity: 1000,
+    viscosity: 0,
     state: "solid",
-    density: 1000,
+    density: 0,
 };
