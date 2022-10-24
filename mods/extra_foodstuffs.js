@@ -2,16 +2,16 @@ console.log("lol");
 
 elements.cream = {
     color: "#f5f2e1",
-    behavior: behaviors.MOLTEN,
+    behavior: behaviors.LIQUID,
     category: "food",
-    viscosity: 10000,
+    viscosity: 100000,
     state: "liquid",
     density: 1000,
 };
 
 elements.apple = {
     color: "#ed2d40",
-    behavior: behaviors.STURDYPOWDER,
+    behavior: behaviors.POWDER,
     category: "food",
     viscosity: 1000,
     state: "solid",
