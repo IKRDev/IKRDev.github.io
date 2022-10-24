@@ -2,7 +2,7 @@ console.log("lol");
 
 elements.cream = {
     color: "#f5f2e1",
-    behavior: behaviors.STICKY,
+    behavior: behaviors.MOLTEN,
     category: "food",
     viscosity: 10000,
     state: "liquid",
