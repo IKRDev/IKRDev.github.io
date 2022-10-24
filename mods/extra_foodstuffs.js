@@ -4,7 +4,7 @@ elements.cream = {
     color: "#f5f2e1",
     behavior: behaviors.LIQUID,
     category: "food",
-    viscosity: 10,
+    viscosity: 25,
     state: "liquid",
     density: 0,
 };
