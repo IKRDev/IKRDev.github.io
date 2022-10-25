@@ -2,7 +2,7 @@ elements.sand_spawn = {
   color: "#ffffff",
   behavior:
   [
-    "CR:sand|XX|XX",
+    "CR:sand|XX|CR:sand_spawn",
     "XX|DL|XX",
     "XX|XX|XX",
   ],
