@@ -15,13 +15,14 @@ elements.mixer = {
   temp:0
 }
 
-behaviors.mixer.tick = function(pixel) {
-  fill(pixel.x - Math.floor(pixel.temp / 2), pixel.y + Math.floor(pixel.temp / 2), pixel.x + Math.floor(pixel.temp / 2), pixel.y - Math.floor(pixel.temp / 2), "mix");
-}
+//behaviors.mixer.tick = function(pixel) {
+//  fill(pixel.x - Math.floor(pixel.temp / 2), pixel.y + Math.floor(pixel.temp / 2), pixel.x + Math.floor(pixel.temp / 2), pixel.y - Math.floor(pixel.temp / 2), "mix");
+//}
 
 // Run after all mods are loaded, for cross-mod compatibility
 runAfterLoad(function() {
     // Your code here
     console.log("Hello World!");
-    fill(-10, -10, 10, 10, "water")
+    //fill(-10, -10, 10, 10, "water")
+    pixelMap[0][0].element = "water";
 });
