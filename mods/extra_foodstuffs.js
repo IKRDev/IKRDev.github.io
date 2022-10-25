@@ -9,27 +9,7 @@ elements.cream = {
     density: 0,
 };
 
-// fruit
-
-elements.apple = {
-    color: "#ed2d40",
-    behavior: behaviors.POWDER,
-    category: "food",
-    viscosity: 0,
-    state: "solid",
-    density: 0,
-    breakInto: "apple_juice",
-};
-
-elements.orange = {
-    color: "#ed2d40",
-    behavior: behaviors.POWDER,
-    category: "food",
-    viscosity: 0,
-    state: "solid",
-    density: 0,
-    breakInto: "orange_juice",
-};
+// juice
 
 elements.apple_juice: {
     color: "#ffe46b",
@@ -53,4 +33,26 @@ elements.orange_juice: {
     state: "liquid",
     density: 1054,
     stain: 0.05,
+};
+
+// fruit
+
+elements.apple = {
+    color: "#ed2d40",
+    behavior: behaviors.POWDER,
+    category: "food",
+    viscosity: 0,
+    state: "solid",
+    density: 0,
+    breakInto: "apple_juice",
+};
+
+elements.orange = {
+    color: "#ed2d40",
+    behavior: behaviors.POWDER,
+    category: "food",
+    viscosity: 0,
+    state: "solid",
+    density: 0,
+    breakInto: "orange_juice",
 };
