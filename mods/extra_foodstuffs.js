@@ -18,7 +18,7 @@ elements.apple = {
     viscosity: 0,
     state: "solid",
     density: 0,
-    breakInto: "apple_juice"
+    breakInto: "apple_juice",
 };
 
 elements.orange = {
@@ -28,7 +28,7 @@ elements.orange = {
     viscosity: 0,
     state: "solid",
     density: 0,
-    breakInto: "orange_juice"
+    breakInto: "orange_juice",
 };
 
 elements.apple_juice: {
@@ -39,7 +39,7 @@ elements.apple_juice: {
     tempLow: -10,
     category: "liquids",
     state: "liquid",
-    density: 1054   
+    density: 1054,
     stain: 0.05,
 };
 
@@ -51,6 +51,6 @@ elements.orange_juice: {
     tempLow: -10,
     category: "liquids",
     state: "liquid",
-    density: 1054   
+    density: 1054,
     stain: 0.05,
 };
