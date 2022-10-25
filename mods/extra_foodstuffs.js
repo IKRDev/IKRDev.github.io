@@ -13,11 +13,7 @@ elements.cream = {
 
 elements.apple = {
     color: "#ed2d40",
-    behavior: [
-                    "XX|ST:vine|XX",
-                    "XX|XX|XX",
-                    "M2|M1|M2",
-                ],
+    behavior: behaviors.POWDER,
     category: "food",
     viscosity: 0,
     state: "solid",
@@ -27,11 +23,7 @@ elements.apple = {
 
 elements.orange = {
     color: "#ed2d40",
-    behavior: [
-                    "XX|ST:vine|XX",
-                    "XX|XX|XX",
-                    "M2|M1|M2",
-                ],
+    behavior: behaviors.POWDER,
     category: "food",
     viscosity: 0,
     state: "solid",
