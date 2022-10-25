@@ -1,4 +1,4 @@
-//Canvas: (0, 0)[top left] - (165, 76)[bottom right]
+//Canvas: (1, 1)[top left] - (165, 76)[bottom right]
 //X - Left: x- | Right: x+
 //y - Up: y- | Down: y+
 
@@ -27,6 +27,6 @@ elements.mixer = {
 runAfterLoad(function() {
     // Your code here
     console.log("Hello World!");
-    fill(0, 0, 75, 75, "water")
+    fill(1, 1, 75, 75, "water")
     //pixelMap[0][0].element = "water";
 });
