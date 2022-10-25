@@ -2,7 +2,7 @@
 function fill(fx, fy, tx, ty, elm) {
   for(var x=Math.min(fx, tx); x<Math.max(fx, tx); x++) {
     for(var y=Math.max(fy, ty); y>Math.min(fy, ty); y--) {
-      pixelMap[x][y].element = elm;
+      createPixel(elm, x, y)
     }
   }
 }
@@ -23,6 +23,6 @@ elements.mixer = {
 runAfterLoad(function() {
     // Your code here
     console.log("Hello World!");
-    //fill(-10, -10, 10, 10, "water")
-    pixelMap[0][0].element = "water";
+    fill(-10, -10, 10, 10, "water")
+    //pixelMap[0][0].element = "water";
 });
