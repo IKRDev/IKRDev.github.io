@@ -7,24 +7,33 @@ elements.cream = {
     viscosity: 35,
     state: "liquid",
     density: 0,
+    
 };
 
 // juice
 
-elements.apple_juice: {
+elements.apple_juice = {
     color: "#ffe46b",
     behavior: behaviors.LIQUID,
+    tempHigh: 160,
+    stateHigh: ["steam","sugar"],
+    tempLow: -10,
     category: "liquids",
     state: "liquid",
     density: 1054,
+    stain: 0.05,
 };
 
-elements.orange_juice: {
+elements.orange_juice = {
     color: "#fcb72b",
     behavior: behaviors.LIQUID,
+    tempHigh: 160,
+    stateHigh: ["steam"],
+    tempLow: -10,
     category: "liquids",
     state: "liquid",
-    density: 1054
+    density: 1054,
+    stain: 0.05,
 };
 
 // fruit
@@ -36,7 +45,7 @@ elements.apple = {
     viscosity: 0,
     state: "solid",
     density: 0,
-    //breakInto: "apple_juice",
+    breakInto: "apple_juice",
 };
 
 elements.orange = {
@@ -46,5 +55,5 @@ elements.orange = {
     viscosity: 0,
     state: "solid",
     density: 0,
-    //breakInto: "orange_juice",
+    breakInto: "orange_juice",
 };
