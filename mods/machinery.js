@@ -1,8 +1,12 @@
+//Canvas: (0, 0)[top left] - (165, 76)[bottom right]
+//X - Left: x- | Right: x+
+//y - Up: y- | Down: y+
+
 // fill from (fx, fy) to (tx, ty) with (elm)
 function fill(fx, fy, tx, ty, elm) {
   for(var x=Math.min(fx, tx); x<Math.max(fx, tx); x++) {
     for(var y=Math.max(fy, ty); y>Math.min(fy, ty); y--) {
-      createPixel(elm, x, y)
+      x>0 && y>0 ? createPixel(elm, x, y) : null;
     }
   }
 }
@@ -23,6 +27,6 @@ elements.mixer = {
 runAfterLoad(function() {
     // Your code here
     console.log("Hello World!");
-    fill(-10, -10, 10, 10, "water")
+    fill(0, 0, 75, 75, "water")
     //pixelMap[0][0].element = "water";
 });
